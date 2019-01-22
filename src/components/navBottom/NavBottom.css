@@ -1,0 +1,29 @@
+.navBottomNavy{
+    width: 100vw;
+    height: 100px;
+    background: #0C4B69;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom:0;
+}
+
+.bottomNavLinkStyle{
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    color: #FFF;
+    width: 25vw;
+}
+
+.navBottomWhiteDivider{
+    width: 100vw;
+    height: 5px;
+    background: #FFF;
+}
+
+.navBottomNavyDivider{
+    width: 100vw;
+    height: 5px;
+    background: #0C4B69;
+}

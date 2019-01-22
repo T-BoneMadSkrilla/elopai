@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.landingPageOverFlowHidden{
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+.spaceAroundLandingPageImg{
+    max-width: 100vw;
+    /* background: #0C4B69; */
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.landingPageImgContain{
+    object-fit: cover;
+    height: 700px;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 100vw;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.bottomDividerLandingPage{
+    width: 100vw;
+    background: #0C4B69;
+    height: 5px;
+    transform: skewY(-5.5deg);
+    transform-origin: 100%;
+}
+
+.landingPageFirstSection{
+    margin: 0 auto;
+    margin-top:220px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.landingPageFirstParagraph{
+    width: 40vw;
+    min-height: 490px;
+    background: #FFF;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    padding: 10px
+    
+}
+
+.landingPageSecondImg{
+    object-fit: cover;
+    height: 500px;
+    width: 41vw;
+}
+
+.landingPageSecondDivider{
+    width: 100vw;
+    background: #0C4B69;
+    height: 5px;
+    margin-bottom: 50px;
+}
+
+.landingPageThirdContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.landingPageThirdSection{
+    height: 200px;
+    width: 15vw;
+    background: #0C4B69;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    padding: 30px;
+}

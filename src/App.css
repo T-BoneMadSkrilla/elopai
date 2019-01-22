@@ -1,0 +1,13 @@
+body{
+  background: #CFE9F6; 
+  overflow-x:hidden;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+

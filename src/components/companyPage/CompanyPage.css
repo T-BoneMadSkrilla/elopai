@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.topCompanyPage{
+    width: 100vw;
+    height: 700px;
+    background:  #0C4B69;
+    color: #FFF;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5em;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.topCompanyPageTextContainer{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.cardAroundCompanyPeople{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companyPeopleImgContain{
+    object-fit: cover;
+    height: 250px;
+    width: 15vw;
+}
