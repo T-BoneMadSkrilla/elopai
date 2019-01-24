@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import './CompanyPage.css';
+import NavTop from '../navTop/NavTop';
+import NavBottom from '../navBottom/NavBottom';
 
 class CompanyPage extends Component{
     render(){
         return(
             <div>
+                <NavTop/>
                 <div className="topCompanyPage">
                  <div className='topCompanyPageTextContainer'>    
                     We're a company and we love making your life easier. <br></br>  Per ut iusto principes intellegat, at eam saperet officiis. Purto timeam dolorum ut vel. 
@@ -36,7 +39,7 @@ class CompanyPage extends Component{
                 <div> somebody <div>Eu lorem dicunt placerat usu. Nibh aeque consectetuer te duo. Sea in accusata corrumpit, ex nobis incorrupte per. </div></div>
                 <img className="companyPeopleImgContain"src='https://i.postimg.cc/YqCZc6f3/t-bone-linked.jpg'/>
                 </div>
-
+                <NavBottom/>
             </div>
         )
     }
