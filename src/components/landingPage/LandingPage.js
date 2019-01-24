@@ -1,11 +1,14 @@
 import React,{Component} from 'react';
 import './LandingPage.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import NavTop from '../navTop/NavTop';
+import NavBottom from '../navBottom/NavBottom';
 
 class LandingPage extends Component {
     render(){
         return(
             <div className="landingPageOverFlowHidden">
+            <NavTop/>
 
             <div className="spaceAroundLandingPageImg"> 
             <img className='landingPageImgContain'src={require('../../pictures/landingPagePics/nordwood-themes-478713-unsplash.jpg') }/>
@@ -38,11 +41,11 @@ class LandingPage extends Component {
                     <div className="landingPageThirdSection">Pro tantas altera option ei, eu vix erant inermis adversarium. Vivendo antiopam maluisset est ei. No</div>
                     <div className="landingPageThirdSection">Odio eleifend percipitur ei sed. Mel et timeam saperet, forensibus delicatissimi cu per. Tantas altera gloriatur eam te. </div>
                 </div>
+                <NavBottom/>
             </div>
         )
     }
 }
 
 export default LandingPage;
-
 // color code light blue #56C5FD navy #0C4B69 white white-ish blue #CFE9F6
