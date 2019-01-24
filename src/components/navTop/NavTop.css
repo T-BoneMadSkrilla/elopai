@@ -1,38 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-.navTopContainer{
-    width: 100vw;
-    max-width: 100vw;
-    height: 125px;
-    background: #FFF; 
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    -webkit-clip-path: polygon(0 1%, 100% 30%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 1%, 100% 30%, 100% 100%, 0% 100%);
+.navTopSticky{
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top:0;
+    z-index: 2;
 }
 
-.containNavTopImg{
-    object-fit: cover;
-    /* overflow: hidden; */
-    height: 125px;
-}
-
-.logoAndName{
-    width: 400px;
+.navTopContainer{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 135px;
+    background: #FFF; 
+    /* margin-top: 10px; */
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-    align-content: space-around;
-    font-family: 'Lato', sans-serif;
-    color: #56C5FD;
-    font-size: 3em;
-    /* background: #FFF; */
+    justify-content: space-around;
+    /* -webkit-clip-path: polygon(0 1%, 100% 30%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 1%, 100% 30%, 100% 100%, 0% 100%); */
+    /* position: -webkit-sticky;
+    position: sticky; */
+    top: 0;
+
 }
 
 .restOfLinks{
@@ -41,12 +29,14 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-	align-items: center;
-    align-content: space-around;
+	/* align-items: center; */
+    /* align-content: space-around; */
+    align-items: flex-end;
     font-family: 'Lato', sans-serif;
     /* background: #FFF; */
-    margin-top: 45px;
-    overflow-x: hidden;
+    /* margin-top: 45px; */
+    /* overflow-x: hidden; */
+    margin-bottom: 15px;
 }
 
 .linkStyle{
@@ -54,6 +44,31 @@
     text-decoration: none;
     color: black;
 }
+
+.TopNavName{
+    font-family: 'Lato', sans-serif;
+    color: #56C5FD;
+    font-size: 3.5em;
+    align-items: center;
+}
+
+.logoNavTop{
+    height: 130px;
+    width: 300px;
+    position: fixed;
+    object-fit: contain;
+    overflow: hidden;
+    top: 0px;
+    left: 250px;
+}
+
+.containNavTopImg{
+    height: 5px;
+    width: 7px;
+    object-fit: fill;
+    overflow: hidden;
+}
+
 
 .bottomDividerNavTop{
     width: 100vw;
