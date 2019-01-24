@@ -1,10 +1,13 @@
 import React,{Component} from 'react';
 import './SolutionsPage.css';
+import NavTop from '../navTop/NavTop';
+import NavBottom from '../navBottom/NavBottom';
 
 class SolutionsPage extends Component{
     render(){
         return(
             <div>
+                <NavTop/>
                 <div className="solutionsTop"> Your business is unique. Find the right solution for your needs.</div>
                 <br></br>
                 <div className="solutionsCard">
@@ -21,6 +24,7 @@ class SolutionsPage extends Component{
                 <div></div>
                 <div></div>
                 </div>
+                <NavBottom/>
             </div>
         )
     }
