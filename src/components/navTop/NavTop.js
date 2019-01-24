@@ -5,28 +5,28 @@ import '../navTop/NavTop.css';
 class NavTop extends Component{
     render(){
         return(
-            <div>
+            <div className='navTopSticky'>
 
             <div className='navTopContainer'>   
 
-                <div className="logoAndName">
-                <Link className='containNavTopImg'to='/'><img src={require("../../pictures/navTopPics/elopAiLogo.PNG")}/></Link>
-                <div>Elop AI</div>
-                </div> 
 
                 <div className="restOfLinks">
                 <Link to='/solutions'className="linkStyle">Solutions</Link>
+                <div className="TopNavName">Elop AI</div>
                 <Link to='/about' className="linkStyle">Company</Link>
-                <Link to='/requestfordemo'className="linkStyle">Request For Demo</Link>
                 </div>
 
             </div>
+
+                <div className='logoNavTop'>
+                <Link className='containNavTopImg'to='/info'><img src={require("../../pictures/navTopPics/elopAiLogo.PNG")}/></Link>
+                </div> 
+
             <div className='bottomDividerNavTop'></div>
+
             </div>
         )
     }
 }
 
 export default NavTop;
-
-//import './LandingPage.css';
