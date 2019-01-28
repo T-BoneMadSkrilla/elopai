@@ -6,11 +6,11 @@
     background:  #0C4B69;
     color: #FFF;
     display: flex;
-    font-family: 'Lato', sans-serif;
-    font-size: 3.5em;
-    padding: 15px;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5em;
 }
 
 .topCompanyPageTextContainer{
@@ -33,4 +33,41 @@
     object-fit: cover;
     height: 250px;
     width: 15vw;
+}
+
+@Media(max-width: 600px){
+
+    .topCompanyPage{
+        width: 100vw;
+        height: 400px;
+        background:  #0C4B69;
+        color: #FFF;
+        display: flex;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.5em;
+        align-items: center;
+        text-align: center;
+    }
+    .topCompanyPageTextContainer{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .cardAroundCompanyPeople{
+        font-family: 'Lato', sans-serif;
+        font-size: 1em;
+        width: 100vw;
+        margin: 0 auto;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .companyPeopleImgContain{
+        object-fit: cover;
+        height: 250px;
+        width: 45%;
+    }
+    
+    
 }
