@@ -48,4 +48,5 @@ class LandingPage extends Component {
 }
 
 export default LandingPage;
+
 // color code light blue #56C5FD navy #0C4B69 white white-ish blue #CFE9F6
