@@ -12,7 +12,7 @@ class InvitationPage extends Component {
 
     <div className='invitationPageWhiteContainer'>
 
- <Link to='info' className='invitationLink'>Transform My Designers into Developers!</Link>
+ <Link to='/info' className='invitationLink'>Transform My Designers into Developers!</Link>
           <div className='elopAndSpeechBubbleInvitationPage'>
              <div id="slide">
                      <div className='invitationElopGreeting'>
