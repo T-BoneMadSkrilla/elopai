@@ -17,3 +17,6 @@ class App extends Component {
 }
 
 export default App;
+
+
+// color code light blue #56C5FD navy #0C4B69 white white-ish blue #CFE9F6
