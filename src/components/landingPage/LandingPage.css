@@ -80,3 +80,86 @@
     color: #FFF;
     padding: 30px;
 }
+
+@Media(max-width: 600px){
+
+    .landingPageOverFlowHidden{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .spaceAroundLandingPageImg{
+        /* max-width: 100vw; */
+        /* overflow-x: hidden; */
+        /* margin-top: 0; */
+    }
+    .landingPageImgContain{
+        object-fit: cover;
+        height: 400px;
+        width: 100vw;
+        margin: 0 auto;
+        max-width: 100vw;
+        overflow-x: hidden;
+        /* margin-top: 0; */
+    }
+   
+    
+    .bottomDividerLandingPage{
+        width: 100vw;
+        background: #0C4B69;
+        height: 5px;
+        transform: skewY(-5.5deg);
+        transform-origin: 100%;
+    }
+    
+    .landingPageFirstSection{
+        margin: 0 auto;
+        margin-top:50px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        /* margin-bottom: 50px; */
+    }
+    
+    .landingPageFirstParagraph{
+        margin: 0 auto;
+        width: 70vw;
+        min-height: 490px;
+        background: #FFF;
+        font-size: 1em;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .landingPageSecondImg{
+        object-fit: cover;
+        height: 300px;
+        width: 100vw;
+    }
+    
+    .landingPageSecondDivider{
+        width: 100vw;
+        background: #0C4B69;
+        height: 5px;
+        /* margin-bottom: 50px; */
+    }
+    
+    .landingPageThirdContainer{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        /* margin-bottom: 50px; */
+    }
+    
+    .landingPageThirdSection{
+        height: 100px;
+        width: 80vw;
+        margin: 0 auto;
+        background: #0C4B69;
+        font-size: 1em;
+        font-family: 'Lato', sans-serif;
+        color: #FFF;
+        margin-bottom: 10px;
+    }
+}
