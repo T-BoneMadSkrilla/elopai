@@ -10,7 +10,7 @@ class CompanyPage extends Component{
                 <NavTop/>
                 <div className="topCompanyPage">
                  <div className='topCompanyPageTextContainer'>    
-                    We're a company and we love making your life easier. <br></br>  Per ut iusto principes intellegat, at eam saperet officiis. Purto timeam dolorum ut vel. 
+                    We're a company and we love making your life easier. Per ut iusto principes intellegat, at eam saperet officiis. Purto timeam dolorum ut vel. 
                     </div>
                     </div>
 
