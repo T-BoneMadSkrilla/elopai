@@ -34,3 +34,31 @@
     height: 500px;
     width: 41vw;
 }
+
+@Media(max-width: 600px){
+
+    .solutionsCard{
+        height: 250px;
+        width: 100vw;
+        margin: 0 auto;
+        margin-top: 10px;
+        background: #FFF;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Lato', sans-serif;
+        font-size: .75em;
+    }
+
+    .solutionsImgContain{
+        object-fit: cover;
+        height: 250px;
+        width: 60%;
+    }
+
+    .solutionsTextContain{
+        width: 40%;
+        padding: 20px;
+    }
+    
+}
