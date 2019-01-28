@@ -87,3 +87,37 @@
 	/* margin-top: -5.5px; */
 	/* margin-left: -11px; */
 /* } */
+
+@Media(max-width: 600px){
+    .invitationLink{
+        width: 50vw;
+        height: 25vh;
+        font-size: .95em;
+    }
+
+    .invitationPageimgContainer{
+        height: 450px;
+        width: 100vw;
+        margin-top: 70px;
+    }
+
+    .elopAndSpeechBubbleInvitationPage{
+        position: relative;
+    margin: 0 auto;
+    top:50px;
+    width: 250px;
+    height: 200px; 
+    display: flex;
+    left: 0;
+    }
+    #slide{
+        position: absolute;
+        width: 400px;
+        height: 350px;
+        left: 0;
+    }
+    .invitationPageWhiteContainer:hover #slide {
+        transition-property: none;
+        /* left: 0; */
+    }
+}
